@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    nav ul li button.btn-contact {
+        padding: 2px 4px;
+    }
+    nav ul li {
+        margin-right: 8px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    section.hero {
+        padding: 30px 0px;
+    }
+    img.avatar {
+        height: 150px;
+        width: 150px;
+    }
+    div.info {
+        margin-left: 12px;
+    }
+    
+    section div span {
+        font-size: 9px;
+    }
+    
+    h1.title {
+        font-size: 15px;
+    }
+
+    section div h1 span {
+        font-size: 15px;
+    
+    }
+    
+    div h2 {
+        font-size: 20px;
+    }
+    section.portfolio {
+        padding: 20px calc(var(--padding-porfolio)/9);
+    }
+    section.portfolio h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    div.card {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    section.portfolio img {
+        margin-bottom: 5px;
+    }
+    div.card:nth-child(3n+3) {
+        margin: 0px 0px;
+        margin-bottom: 25px;
+    }
+    div.card:nth-last-child(-n+3) {
+        margin-bottom: 25px;
+    }
+    footer p {
+        font-size: 12px;
+        padding: 25px 0px;
+    }
+}
